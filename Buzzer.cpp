@@ -8,6 +8,7 @@ Buzzer::Buzzer() {
 	NoTone();
 }
 
+
 void Buzzer::Tone(int pin, int freq) {
 	digitalWrite(PIN, HIGH);
 	ledcSetup(0, 2000, 8);
